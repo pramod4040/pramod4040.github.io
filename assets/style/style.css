@@ -5,3 +5,28 @@
 .center{
     margin-top: 100px;
 }
+
+body {
+    background-image: url(/assets/images/background.jpg);
+    align-items: center;
+    /* background-image: url('example_img_girl.jpg'); */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.each-box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1.5px 4px #845b47;
+    background-color: rgb(195 166 166);
+    margin: 10px 60px;
+    /* margin: 0 auto; */
+}
+
+.flex-item {
+    padding: 20px 20px;
+    flex: 1 0 33%; 
+}
